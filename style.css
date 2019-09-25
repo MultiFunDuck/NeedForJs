@@ -71,3 +71,35 @@ table {
     background : #fff;
     left: 145;
 }
+
+.start{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: white;
+    font-family: italic;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: green;
+    cursor: pointer;
+
+}
+
+.score{
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    background: #222;
+    padding: 1rem 0;
+    z-index: 200;
+    color: rgb(225, 250, 0);
+    font-family: italic;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
